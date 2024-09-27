@@ -1,0 +1,131 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:8px;
+	padding:0px;
+	height:100%;
+    background: #9c4105;
+    
+}
+
+html {
+		/* Standard text-settings below */
+font-size: 1em;
+line-height: 5em;
+font-family: "Jacquarda Bastarda 9", serif;
+font-weight: 900;
+font-style: initial;
+color: #210d00;
+}
+
+
+
+
+body {
+	
+	
+}
+
+
+#container {
+	border:0px solid black;
+    width: 1000 px;
+    margin: auto;
+    position:relative;
+    text-align: center;
+    height: 600px;
+}
+
+p {
+    font-size: 1em;
+
+}
+span.strange{
+    color:#753002;
+    font-size: 100px;
+    position:absolute;
+    right:0px;
+    bottom: 0px;
+    z-index: 2;
+    left:300px;
+    font-size: 2em;
+    text-align: left;
+    bottom: 100px;
+}
+span.strange2{
+    color:#753002;
+    font-size: 100px;
+    position:absolute;
+    right:0px;
+    bottom: 0px;
+    z-index: 2;
+    right:200px;
+    font-size: 2em;
+    text-align: left;
+}
+    
+span.strange3{
+    color:#753002;
+    font-size: 100px;
+    position:absolute;
+    right:0px;
+    bottom: 0px;
+    z-index: 2;
+    right:11px;
+    font-size:2em;
+     text-align: right;
+    bottom: 100px;
+}
+    span.strange4{
+    color:#753002;
+    font-size: 100px;
+    position:absolute;
+    right:0px;
+    bottom: 0px;
+    z-index: 2;
+    left:11px;
+    font-size:2em;
+    text-align: left;
+   
+}
+   span.strange5{
+    color:#753002;
+    font-size: 100px;
+    position:absolute;
+    right:0px;
+    bottom: 0px;
+    z-index: 2;
+    right:400px;
+    font-size:2em;
+    text-align: center;
+    bottom: 100px;
+}
+    span.strange6{
+    color:#753002;
+    font-size: 100px;
+    position:absolute;
+    right:0px;
+    bottom: 0px;
+    z-index: 2;
+    left:-4px;
+    font-size:2em;
+    text-align: center;
+}
+
+       footer {
+    font-family: Helvetica;
+    font-size: 10px;
+    position: absolute;
+    text-align: center;
+    right: -15px;
+    bottom:50px;
+    word-spacing: normal;
+    font-size: 60px; text-transform: uppercase;
+    letter-spacing: 1em;
+    line-height: .5em;
+}
+
+
+
+
+
+
