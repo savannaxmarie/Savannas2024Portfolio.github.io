@@ -1,0 +1,202 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+ 
+  background:#9597de 
+}
+        
+
+
+
+#container {
+	
+    
+}
+
+
+ div#letterU{
+        position: absolute;
+        right:600px;
+        bottom: 100px;
+        border-radius:40%;
+        transition:all 2s;
+        font-size: 20em;
+        color: #f5f2f0;
+        animation: ani 2.5s linear infinite;
+        
+        
+        
+        
+    }
+    
+    div#letterU:hover 
+    {
+        background: #9597de;
+        transform: scale(4) rotate(130deg);
+    }
+
+ div#dot3{
+        position: absolute;
+        right:20px;
+        bottom: 700px;
+        border-radius:30%;
+        transition: all 2s;
+        font-size: 60em;
+        color:#2e2d2d;
+     
+        
+        
+    }
+    
+    div#dot3:hover 
+    {
+        background: #9597de;
+        transform: scale(4) rotate(130deg);
+    }
+div#dot{
+        position: absolute;
+        left:400px;
+        bottom: 500px;
+        border-radius:30%;
+        transition: all 2s;
+        font-size: 10em;
+        animation-duration:4s;
+        color:#f5f2f0;
+        transition-duration:0.4s;
+        
+    }
+    
+    div#dot:hover 
+    {
+        background: #9597de;
+        transform: scale(4) rotate(130deg);
+    }
+div#U2{
+        position: absolute;
+        right:600px;
+        bottom: 700px;
+        border-radius:30%;
+        transition: all 2s;
+        font-size: 20em;
+        color:#2e2d2d;
+        
+        
+    }
+    
+    div#U2:hover 
+    {
+        background: #9597de;
+        transform: scale(2) rotate(130deg);
+        
+    }
+     div#U4 {
+     position: relative;
+     font-size: 15em;
+     top: 470px;
+    right:-500px;
+     transition: all 4s;
+      color:#b5b3b1;
+     
+}
+div#U4:hover 
+    {
+        transform: scale(2) rotate(130deg);
+        
+    }
+
+div#U3 {
+     position: relative;
+     font-size: 15em;
+     top:315px;
+     transition: all 4s;
+     left:800px;
+      color:#4a4948;
+     
+}
+div#U3:hover 
+    {
+        transform: scale(2) rotate(130deg);
+}
+        
+div#dot2{
+        position: absolute;
+        left:20px;
+        bottom: 500px;
+        border-radius:30%;
+        transition: all 2s;
+        font-size:50em;
+        color: #2e2d2d;
+     
+        
+        
+    }
+    
+    div#dot2:hover 
+    {
+        transform: scale(4) rotate(130deg);
+        
+        
+} div#threeDot{
+        position: absolute;
+        right:750px;
+        bottom: 100px;
+        border-radius:40%;
+        transition:all 2s;
+        font-size: 5em;
+        color: #2e2d2d;
+       
+        
+        
+        
+        
+        
+    }
+    
+    div#threeDot:hover 
+    {
+        transform: scale(4) rotate(130deg);
+    }
+
+div#threeDot2{
+        position: absolute;
+        right:600px;
+        bottom: 700px;
+        border-radius:30%;
+        transition: all 2s;
+        font-size: 5em;
+        color: #f5f2f0;
+    }
+    
+    div#threeDot2:hover 
+    {
+        transform: scale(2) rotate(130deg);
+}
+
+div#dot4{
+        position: absolute;
+        right:400px;
+        bottom: 100px;
+        border-radius:30%;
+        transition: all 2s;
+        font-size: 20em;
+        color:#f5f2f0;
+        transition-duration:0.4s;
+    }
+    
+    div#dot4:hover 
+    {
+        transform: scale(2) rotate(130deg);
