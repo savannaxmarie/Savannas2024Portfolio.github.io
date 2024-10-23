@@ -32,22 +32,49 @@
 </nav>
       
 <main>
-      
+  
+ <script>
+  //document.write("Welcome to")  
+   
+     function bambino() {
+     alert("Welcome to");
+     }
+    
+     function changeBg() {
+      document.body.style.background = "#ff0000";  
+     }
+     
+     
+     
+     
+    </script>   
+
+    <button onclick="bambino()"> message here
+    </button>
+    <button onclick="changeBg()">Redecorate!</button>
+    
 <figure>
 <img src="img/woods.jpeg"alt="woods">
 <figcaption>Image from Savanna Marie</figcaption>
           
 </figure>
      
+    
+    
+    
+    
+    
 <p>Hi Friends!</p>
       
       </main>
       
       <footer>
-      <p> &#169; Savanna Marie 2024</p>
-      
-      </footer>
-
+          <p> &#169; Savanna Marie <span id="year"></span> 
+          </p>
+       </footer>
+<script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+       </script>
 
 
   </div><!-- close "container" -->
