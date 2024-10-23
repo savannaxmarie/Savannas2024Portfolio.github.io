@@ -20,7 +20,8 @@ html {
 body {
 	background:#695d54;
     color:#2e2c2a;
-    font-family:Helvetica, Didot, Georgia, Optima, sans-serif; 
+    font-family:Helvetica, Didot, Georgia, Optima, sans-serif;
+    text-align: center;
 	
 }
 
@@ -39,28 +40,42 @@ nav a {
     color: #ebe7e4;
     text-decoration:none;
     background: #8a8786;
-    padding:5px;
-    margin:5px;
+    padding:3px;
+    margin:3px;
     display:inline-block;
     width: 200px;
     text-align:center;
-    border-radius:4px;
+    border-radius:8px;
    
     
 }
 
 
 nav a:hover {
-    background:#f2efed; 
-
+    background:#f2efed;
 }
 
+img {
+    width:100%
+}
 
 #container {
- 
+    max-width:700px;
+    margin:auto;
+    padding: 15px;
     
 }
 
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+   
+    
+    
+    #container {
+        width:650px;
+    }
 
+
+} /* closes 1024px+ */
 
 
