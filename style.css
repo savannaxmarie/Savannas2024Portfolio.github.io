@@ -16,8 +16,8 @@ html {
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 body {
-	background: #47148f;
-    color: #d2d0d6;
+	background: #f2cf61;
+    color: #111824;
 	font-family: 'Forum', sans-serif;
 }
 
@@ -29,7 +29,7 @@ body {
 header,footer {
     
     background: #d2d0d6;
-    color: #47148f;
+    color: #f2cf61;
     padding: 1em;
 }
 
@@ -47,7 +47,7 @@ section {
 
 section header{
     background: none;
-    color: #353638;
+    color: #111824;
 }
 
 section h1{
@@ -55,7 +55,7 @@ section h1{
 }
 
 section#myWriting {
-    background: #6d8cc9;
+    background: #4a4946;
 }
 .mobile {
 
@@ -76,8 +76,8 @@ You can adjust the min-width numbers below, and add as many new media queries as
 @media all and (min-width: 769px) {
 
     body{
-        background: #2b5099 
-        url(../img/beach.pdf)no-repeat fixed
+        background: #ada078 
+        url(../img/ceiba.pdf)no-repeat fixed
         center;
         background-size: cover;
         
@@ -89,12 +89,12 @@ You can adjust the min-width numbers below, and add as many new media queries as
     }
 	
     section#somebodysWriting {
-        background: rgba(0,0,0,.7)
+        background: #4a4946;
         color: white;
     }
 	section#somebodysWriting 
     {
-        color: #2b5099;
+        color: white;
     }
 	
     header, footer 
@@ -103,7 +103,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
     }
     
     #container>header h1 {
-    color: #e6eaf2;
+    color: #ada078;
 }
     footer {
         color: white;
