@@ -1,0 +1,147 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	background: #f2cf61;
+    color: #111824;
+	font-family: 'Forum', sans-serif;
+}
+
+
+#container {
+	
+}
+
+header,footer {
+    
+    background: #d2d0d6;
+    color: #f2cf61;
+    padding: 1em;
+}
+
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
+    line-height:1.25em;
+}
+section {
+    border:1px solid black;
+    padding: 15px;
+    margin-bottom:2em;
+}
+
+section header{
+    background: none;
+    color: #111824;
+}
+
+section h1{
+    font-size: 1.5em;
+}
+
+section#myWriting {
+    background: #4a4946;
+}
+.mobile {
+
+    color: white;
+}
+.desktop {
+    display:none;
+    color: white;
+}
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+    body{
+        background: #ada078 
+        url(../img/ceiba.pdf)no-repeat fixed
+        center;
+        background-size: cover;
+        
+    }
+    
+    #container {
+        width: 722px;
+        margin: auto;
+    }
+	
+    section#somebodysWriting {
+        background: #4a4946;
+        color: white;
+    }
+	section#somebodysWriting 
+    {
+        color: white;
+    }
+	
+    header, footer 
+    {
+        background: none;
+    }
+    
+    #container>header h1 {
+    color: #ada078;
+}
+    footer {
+        color: white;
+        text-align: right;
+    }
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+    #container {
+        width: 1000px; 
+    }	
+	
+    section#somebodysWriting{
+        float: left;
+        width: 40%
+    }
+    
+    section#myWriting {
+        float: right;
+        width: 45%;
+    }
+    footer {
+        clear:both;
+    }
+    
+    .mobile {
+    display: none;
+}
+.desktop {
+    display:block;
+}
+} /* closes 1024px+ */
+
+
+
