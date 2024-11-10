@@ -16,9 +16,10 @@ html {
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 body {
-	background: #f2cf61;
-    color: #111824;
-	font-family: 'Forum', sans-serif;
+	
+	background: #2a2c30;
+    color: #bab7ad;
+    font-family: 'Doto', sans-serif;
 }
 
 
@@ -26,45 +27,78 @@ body {
 	
 }
 
-header,footer {
+header, foooter {
     
-    background: #d2d0d6;
-    color: #f2cf61;
+    background: #bab7ad;
+    color: #2a2c30;
     padding: 1em;
 }
 
-
 h1 {
     font-family: Helvetica, sans-serif;
-    font-size: 3em;
-    line-height:1.25em;
+    font-size: 1.5em;
+    line-height:0em;
 }
+
 section {
-    border:1px solid black;
-    padding: 15px;
-    margin-bottom:2em;
+    border:.1px #bab7ad ;
+    padding: 2em;
+    margin-bottom:0em;
 }
 
 section header{
-    background: none;
-    color: #111824;
+    background: #bab7ad;
+    color: #2a2c30;
 }
 
 section h1{
     font-size: 1.5em;
 }
 
-section#myWriting {
-    background: #4a4946;
+section#myProposal {
+    background: #2a2c30;
 }
+
+
+section h1{
+        font-size: 1em;
+    } 
+    
+    section#youtubeInfluencer {
+        align-content: left;
+
+
+}
+    
+section#myImage {
+       width: 100%;
+    }
+
+img
+{
+    width: 500px;
+    
+}
+
+main {
+    display: flex;
+}
+
+
 .mobile {
 
-    color: white;
+    color: #bab7ad ;
 }
 .desktop {
     display:none;
     color: white;
-}
+    
+
+
+
+
+
+
 /* ========================================
 MEDIA QUERIES!
 You can adjust the min-width numbers below, and add as many new media queries as you need.
@@ -74,73 +108,37 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
-
-    body{
-        background: #ada078 
-        url(../img/ceiba.pdf)no-repeat fixed
-        center;
-        background-size: cover;
-        
-    }
-    
-    #container {
-        width: 722px;
-        margin: auto;
-    }
 	
-    section#somebodysWriting {
-        background: #4a4946;
-        color: white;
-    }
-	section#somebodysWriting 
-    {
-        color: white;
-    }
 	
-    header, footer 
-    {
-        background: none;
-    }
-    
-    #container>header h1 {
-    color: #ada078;
-}
-    footer {
-        color: white;
-        text-align: right;
-    }
+	
+	
 } /* closes 769px+ */
 
-
+main {
+    display: flex;
+}
 
 
 /* Minimum width for desktop screens. */
 @media all and (min-width: 1024px) {
 	
-	
-    #container {
-        width: 1000px; 
-    }	
-	
-    section#somebodysWriting{
-        float: left;
-        width: 40%
-    }
-    
-    section#myWriting {
-        float: right;
-        width: 45%;
-    }
-    footer {
-        clear:both;
-    }
-    
-    .mobile {
-    display: none;
+	figure.youtubeInfluence {
+    position: relative;
+    padding-bottom: 56.25%;  /* 16:9 */
+    height: 0px; 
+    overflow: hidden; 
+    max-width: 100%; 
 }
-.desktop {
-    display:block;
+
+figure.youtubeInfluence {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
 }
+	
+	
 } /* closes 1024px+ */
 
 
