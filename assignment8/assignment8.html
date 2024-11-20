@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Jscary</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+      
+ <h1>Fania</h1>     
+<h2> all stars </h2>
+</header>
+
+<main>
+      
+
+ <p>A flamingo once tried to start a podcast about the secret lives of seahorses, but it was difficult to schedule interviews since the seahorses were always too busy dancing with the currents.</p>  
+
+       
+<p id="whatever">Query once ruled the web like a knight in shining armor, making it easy to add interactive elements to websites. But as browsers evolved and JavaScript grew more powerful, jQuery became the equivalent of using a hammer to push in a nail. It's bloated with unnecessary code, adds extra HTTP requests, and forces developers to rely on an abstraction that modern JavaScript can handle natively—without needing to download a 90KB library. It's like carrying around a Swiss Army knife when all you need is a screwdriver. In the age of ES6 and beyond, it’s just another outdated tool in the back of the toolbox.</p>
+<button>More</button>
+    
+<figure id="salsaisking"> 
+    
+<img src="img/salsaisking.pdf"alt="salsaisking"> 
+    
+ <button>Click me</button>   
+    
+</figure>
+    
+    
+    
+<figcaption>salsa is king</figcaption>
+
+      
+      
+</main>
+
+
+  </div><!-- close "container" -->
+  
+<!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+    
+<script>
+$(document).ready(function() {
+    
+    
+    
+$('p#whatever').hide();
+    
+    
+
+$('button').click(function(){
+      
+$('p#whatever').show();  
+   
+});//close click function
+         
+    
+    
+    
+  }); //close .ready()
+</script>
+    
+    
+</body>
+	
+    
+    
+    
+    
+</html> 
