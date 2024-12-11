@@ -23,9 +23,10 @@ a{
 
 
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
 @media (max-width: 650px) {
 
-.header{
+   .header{
     background-color: #040a34;
     opacity:65%;
 }
@@ -44,7 +45,7 @@ a{
     font-family: Helvetica;
     font-weight: 300px;
     
-}
+
 }
 .logodraft{
    
@@ -54,8 +55,17 @@ a{
   width: 80px;
   height: 70px;
   display: block;
-    
 }
+.logodraft{
+   width: 500px;
+    height: 400px;
+    text-align:center;
+    display:block;
+    margin: 0 auto;
+    bottom: 10px;
+    position: relative;
+    right: -10px;}
+   }
 
 .nav{
     
@@ -74,8 +84,7 @@ column-gap: 30px;
     
 }
 
-
-.nav__link{
+nav__link{
     color:#F5F5F5;
     opacity: 40%;
     font-size: 10px;
@@ -84,65 +93,62 @@ column-gap: 30px;
 .nav__link:hover{
     color:#F5F5F5;
     opacity: 100%;
-}
+} 
+
 
 h1{
-    font-size:20px;
+    border:0px solid black;
+    text-align: center;
+    height: -200px;
+    top:-50px;
+    letter-spacing: 10px;
+    font-size: 32px;
+   
+    } 
+h2{
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+    color:#040a34;
+    opacity: 65%;
     font-family: helvetica;
-    letter-spacing: 1px;
-    width:1000px;
-    top:20px;
-    position: relative;
+    font-weight: 100px;
+    line-height: 1400px;
+    margin-top: -650px;
 }
 
 p1{
-    font-size: 12px;
-    line-height: 20px;
-    position: relative;
-    top:10px;
-}
+    line-height: 25px;
+    text-align:justify;
+    width: 900px;
+    position:relative;
+    margin:auto;
+    font-size:25px;
+    bottom: 650px;
+    right:-200px;
+    
 
-h2{
-    font-size:20px;
-    font-family: helvetica;
-    letter-spacing: 1px;
-    width:1000px;
-    position: relative;
-    top:20px;
 }
 
 p2{
-    font-size: 12px;
-    line-height: 20px;
-    position: relative;
-    top:10px;
-}
-
-h3{
-    font-size:20px;
-    font-family: helvetica;
-    letter-spacing: 1px;
-    width:1000px;
-    position: relative;
-    top:20px;
+    line-height: 25px;
+    text-align:justify;
+    width: 900px;
+    position:relative;
+    margin:auto;
+    font-size:25px;
+    bottom: 550px;
+    right:80px;
 }
 
 p3{
-    font-size: 12px;
-    line-height: 20px;
-    position: relative;
-    top:10px;
-}
-
-p4{
-    top:50px;
+    font-size: 8px;
+    top:-100px;
     position: relative;
 }
-
-
-
 body {
-	
+    
+    
 	
 }
 
@@ -150,6 +156,8 @@ body {
 #container {
 	
 }
+
+
 
 
 
@@ -198,13 +206,17 @@ You can adjust the min-width numbers below, and add as many new media queries as
    
 }
 
-.logodraft img{
-  width: 200px;
-  height:150px;
-  display: block;
-    
-}
-
+.logodraft{
+   width: 600px;
+    height: 500px;
+    text-align:center;
+    display:block;
+    margin: 0 auto;
+    bottom: 10px;
+    position: relative;
+    right: -10px;}
+   }
+	
 .nav{
     
     
@@ -228,66 +240,62 @@ column-gap: 40px;
     font-size: 15px;
     transition: all 0.4s;
 }
-.nav__link:hover{
+
+    .nav__link:hover{
     color:#F5F5F5;
     opacity: 100%;
-}
+}	
 
 h1{
-    font-size:35px;
-    font-family: helvetica;
-    letter-spacing: 1px;
-    width:1000px;
-    top:20px;
-    position: relative;
-}
-
-p1{
-    font-size: 18px;
-    line-height: 20px;
-    position: relative;
-    top:10px;
-}
-
+    border:0px solid black;
+    text-align: center;
+    height: -200px;
+    top:-50px;
+    letter-spacing: 10px;
+    font-size: 40px;
+   
+    } 
 h2{
-    font-size:35px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-align: center;
+    color:#040a34;
+    opacity: 65%;
     font-family: helvetica;
-    letter-spacing: 1px;
-    width:1000px;
-    position: relative;
-    top:20px;
+    font-weight: 100px;
+    line-height: 1400px;
+    margin-top: -650px;
 }
+    p1{
+    line-height: 25px;
+    text-align:justify;
+    width: 900px;
+    position:relative;
+    margin:auto;
+    font-size:30px;
+    bottom: 650px;
+    right:-610px;
+    }
+
+
 
 p2{
-    font-size: 18px;
-    line-height: 20px;
-    position: relative;
-    top:10px;
-}
-
-h3{
-    font-size:35px;
-    font-family: helvetica;
-    letter-spacing: 1px;
-    width:1000px;
-    position: relative;
-    top:20px;
-}
-
-p3{
-    font-size: 18px;
-    line-height: 20px;
-    position: relative;
-    top:10px;
+    line-height: 25px;
+    text-align:justify;
+    width: 900px;
+    position:relative;
+    margin:auto;
+    font-size:30px;
+    bottom: 550px;
+    right:-260px;
 }
     
-p4{
-    top:200px;
+ p3{
+    font-size: 20px;
+    top:-100px;
     position: relative;
-    font-size:15px;
-}
-	
-} /* closes 769px+ */
+}   
+    } /* closes 769px+ */
 
 
 
