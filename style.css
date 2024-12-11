@@ -1,12 +1,9 @@
 /* Basic CSS resets -- leveling slight inconsistencies in browsers */
 html, body {
-	
-    margin:0px;
+	margin:0px;
 	padding:0px;
 	height:100%;
-    
 }
-
 
 html {
 		/* Standard text-settings below */
@@ -18,11 +15,11 @@ html {
 
 
 body {
-	background:#695d54;
+	
+background:#695d54;
     color:#2e2c2a;
     font-family:Helvetica, Didot, Georgia, Optima, sans-serif;
-    text-align: center;
-	
+    text-align: center;	
 }
 
 nav ul {
@@ -60,7 +57,7 @@ img {
 }
 
 #container {
-    max-width:700px;
+	 max-width:700px;
     margin:auto;
     padding: 15px;
     
@@ -77,5 +74,7 @@ img {
 
 
 } /* closes 1024px+ */
+
+
 
 
