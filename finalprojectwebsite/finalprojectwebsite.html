@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>OrchestratedLife</title>  
+	
+<link rel="stylesheet" href="css/style.css">	
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght,ROND@100..900,3&family=Forum&family=Jacquarda+Bastarda+9&family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+    
+</head>
+
+
+<body>
+
+  
+    
+    
+    
+    
+  <div id="container">
+
+<header>
+      
+
+
+    <h1>Orchestrated Lifes Welcomes You</h1> 
+    
+    <h2>The Grand Design of Life</h2>
+    
+    
+    
+</header> 
+      
+<div>
+      <img src="img/logodraft.png" alt="" class="logodraft"> 
+</div>
+      
+      
+      
+      
+       <p>&nbsp;</p>
+      
+      <form>
+      <input type= "password" id="ol">
+      <input type="button"value= "login" onclick="Valid()">
+      </form>
+      
+      <script> 
+      
+      function Valid() {
+          
+      var pass = document.getElementById("ol").value;
+          
+         
+      if (pass=="ol") {
+          
+          location = "home.html";
+          
+      }//close if statement
+      
+      
+      }//close Valid
+      
+      </script>
+ 
+      <p>&nbsp;</p>
+      
+<footer>
+          <p> &#169; Savanna Marie <span id="year"></span> 
+          </p>
+       </footer>
+<script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+       </script>
+  </div><!-- close "container" -->
+  
+
+</body>
+	
+</html> 
